@@ -5,7 +5,7 @@ import pandas as pd
 # for data preprocessing and pipeline creation
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("/content/drive/MyDrive/AIML-GL/Advanced Machine Learning and MLOps/tourism.csv")
+df = pd.read_csv("tourism_project/data/tourism.csv")
 
 print("Dataset loaded successfully.")
 
