@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-RAW_PATH = "/content/drive/MyDrive/AIML-GL/Advanced Machine Learning and MLOps/tourism.csv"
+RAW_PATH = "tourism_project/data/tourism.csv"
 
 # Load the raw dataset
 df = pd.read_csv(RAW_PATH)
